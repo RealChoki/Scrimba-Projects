@@ -1,0 +1,107 @@
+body, html{
+    margin: 0 auto;
+    padding: 0;
+    width: 550px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(#ffffff, #F6F7FB)
+    
+}
+
+header {
+    height: 81px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.small{
+    height: 34px;
+    width: 34px;
+    margin: 0 1.1em;
+}
+
+.mid{
+    height: 42px;
+    width: 84px;
+}
+
+.big{
+    width: 550px;
+    border-radius: 15px;
+}
+
+#feed {
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    margin: 0;
+}
+
+.text h2{
+    font-weight: 400;
+    color: #B7B7B7;
+    margin-top: 0;
+}
+
+.text h1{
+    margin-bottom: 4px;
+}
+
+.popup{
+    width: 230px;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    margin: 0;
+    transform: rotate(-30deg);
+}
+
+#like-pop {
+    display: none;
+}
+
+#dislike-pop{
+    display: none;
+}
+
+.like-dislike {
+    width: 91px;
+    height: 91px;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0px 10px 20px #E9E9EA;
+    background-color: #ffffff;
+}
+
+.like-dislike img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.disliked:hover{
+    background-color: #FFE7EF;
+    cursor: pointer;
+}
+
+.liked:hover{
+    background-color: #DBFFF4;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    height: 140px;
+}
+

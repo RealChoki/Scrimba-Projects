@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    text-align: center;
+    background: #1B244A;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    
+}
+
+
+h2 {
+    font-size: 40px;
+    margin: 10px;
+}
+
+h1 {
+    height: 120px;
+    width: 155px;
+    border-radius: 5px;
+    background-color: black;
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: #F94F6D;
+
+}
+
+.home {
+    margin: 10px 50px 10px;
+}
+
+.guest {
+    margin: 10px 50px 10px;
+}
+
+#reset {
+    width: 65px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    Align-items: center;
+}
+
+button {
+    border-radius: 5px;
+    background: none;
+    color:#9AABD8;
+    width: 45px;
+    height: 45px;
+    border-color: #9AABD8;
+    font-family: Cursed Timer ULiL;
+    margin: 0px 3px;
+    
+    
+}
+
+#secound-el{
+    margin: 20px 25px;
+}
+
+#first-el{
+    margin: 20px 25px;
+}

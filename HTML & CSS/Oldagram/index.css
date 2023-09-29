@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: #EDEDED;
+    width: 375px;
+    display: block;
+    margin: 0px auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.container{
+    background: white;
+    margin-bottom: 25px;
+    
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 67px;
+    width: 375px;
+    border-bottom: 2px solid #C6C6C6;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+.avatar{
+    height: 34px;
+    width: 34px;
+    border-radius: 0px;
+    border-radius: 50%;
+    margin-right: 10px;
+    
+}
+
+.logo{
+    height: 90%;
+    width: 127px;
+    border-radius: 0px;
+    padding: 0px 10px
+    
+}
+
+.first-sec {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+    
+}
+
+.first-sec p{
+    margin: 0px 5px
+}
+
+.first-sec img{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.main-img{
+    width: 375px;
+    height: 375px;
+    padding: 0;
+}
+
+.interaction{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px 0px 10px;
+    width: 80px;
+    height: 22px;
+    margin: 0;
+
+}
+
+
+
+.secound-sec {
+    padding: 10px 0px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+
+.container:last-child{
+    margin: 0;
+}
+
+.likes {
+    display: flex;
+    padding-left: 10px;
+    
+}
+
+.likes-word{
+    padding-left: 4px;
+}
+
+.comment{
+    padding-left: 10px;
+    margin-top: 0px;
+}
+
+p:hover,
+img:hover{
+    cursor: pointer;
+}
+
+.top {
+    margin-top: 68px;
+}

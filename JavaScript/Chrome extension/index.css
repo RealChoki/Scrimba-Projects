@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+    background-image: url("https://imgs.search.brave.com/dQ7DyMGxmDZffjyE53LL8l7_bsdaz5mkL5mWuN5_9jQ/rs:fit:1200:860:1/g:ce/aHR0cHM6Ly9mdW5h/cnQucHJvL3VwbG9h/ZHMvcG9zdHMvMjAy/MS0wNC90aHVtYnMv/MTYxODU2OTM5MF81/OS1mdW5hcnRfcHJv/LXAtb2JvaS1mb24t/bWFuZ2EtZm9uLTYy/LmpwZw");
+    background-size: cover;
+     
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ff6781;
+    margin-bottom: 4px;
+}
+
+button {
+    background: #ff6781;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #ff6781;
+    font-weight: bold;
+}
+
+#delete-btn {
+    background: white;
+    color: #ff6781;
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+a {
+    color: #ff6781;
+    font-weight: bold
+}
+
+

@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1F2937;
+    font-family: 'Inter', sans-serif;
+}
+
+.selected-color{
+    height: 42px;
+    width: 61px;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 2px;
+}
+
+input[type="color"] {
+    background-color: #E5E5E5;
+}
+
+.color-schemes{
+    background-color: #1F2937;
+    border: 1px solid #D1D5DB;
+    width: 312px;
+    height: 42px;
+    border-radius: 6px;
+    color: #D5D4D8;
+    padding: 9px 13px;
+}
+
+button{
+    background-color: #3D4B60;
+    border: none;
+    border-radius: 6px;
+    color: #ffffffff;
+    padding: 0.8em 0.68em;
+    height: 42px;
+    font-size: 0.75rem;
+}
+
+header{
+    display: flex;
+    gap: 0.8em;
+    width: 550px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color: #D5D4D8;
+    text-align: center;
+}
+
+.color{
+    height: 400px;
+    width: 110px;
+}
+
+section{
+    display: flex;
+}
+
+select, .selected-color, button{
+    cursor: pointer;
+}

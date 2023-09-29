@@ -1,0 +1,220 @@
+body, html{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 59px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    background: white;
+    z-index: 999;
+}
+
+.first, .secound{
+    display: flex;
+}
+
+h4 {
+    margin: 0.5em ;
+    font-size: 0.8rem;
+    
+}
+
+h5{
+    font-size: 0.8rem;
+    margin: 0.5em 0;
+    font-weight: 400;
+    padding-top: 0.5em;
+}
+
+
+p{
+    font-size: 0.9rem;
+    margin: 0.5em 0 2.5em;
+}
+
+.logo {
+    width: 23px; 
+    height: 23px;  
+    margin-left: 10px; 
+}
+
+
+
+.hero-image {
+    height: 293px;
+    width: 100%;
+    margin-top: 59px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    left: 0;
+    top: 7em;
+    margin-left: 1em;
+    color: white;
+    max-width: 400px;
+    min-width: 365px;
+}
+
+
+
+.hero, .content {
+    margin: 0 1em;
+}
+
+
+.content img{
+    width: 100%;
+}
+
+
+.view{
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+    display: block;
+    margin: 0 auto  40px;
+    width: fit-content;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #202020 ;
+    height: 100px;
+    
+}
+
+footer p{
+    margin: 0;
+}
+
+.copy{
+    color: #d7d7d788;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 0.5em;
+}
+
+button{
+    border: none;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+/* ! Here are styles for the "About Me" Page. */
+
+
+
+.profilepic{
+    margin: 70px 1em 1em;
+}
+
+
+span{
+    margin-bottom: 17px;
+    display: inline-block;
+}
+
+.thick{
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.space{
+    margin-top: 10px;
+}
+
+.recent{
+    text-align: center;
+    font-weight: bolder;
+    margin: 0 0 2.5em;
+}
+
+.content h1{
+    font-size: 1.65rem;
+    margin: 0;
+}
+
+
+/* ! From here Pc optimization starts */
+
+
+@media (min-width: 768px){
+    
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr
+    }
+
+   .hero-image{
+        min-height:370px;
+        max-height:400px
+   }
+
+    footer{
+        margin-top: 85px;
+    }
+
+  .container{
+        margin-top: 50px;
+    }
+
+    .profileandtext{
+        display: flex;
+    }
+
+    .profiletext{
+        margin-top: 105px;
+    }
+
+    .space{
+        margin:0px 120px
+    }
+
+    .view{
+        margin-top: 50px;
+    }
+
+    .container section{
+        margin-top: 50px;
+    }
+
+    
+    .profileandtext,
+    section 
+        {
+        max-width: 1021px;
+        margin: 0 auto;
+    }
+
+    .grid{
+        max-width: 1380px;
+        margin: 0 auto;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+}

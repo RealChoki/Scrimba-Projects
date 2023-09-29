@@ -1,0 +1,62 @@
+html {
+    height: 100vh;
+    font-family: Baloo;
+}
+
+body {
+    padding: 10px;
+    background-image: linear-gradient(#ffc8dd, #FFF);
+}
+
+#emoji-container {
+    margin: 40px;
+    text-align: center;
+}
+
+#emoji-container span {
+    margin: 10px;
+    font-size: 60px;
+}
+
+#push-btn,#unshift-btn {
+    background-color: #ffafcc;
+}
+
+#shift-btn,#pop-btn {
+    background-color: #cdb4db;
+}
+
+h1 {
+    text-shadow: 0px 0px 1px black;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+}
+
+input {
+    margin: 0 auto;
+    display: block;
+    border: none;
+    height: 30px;
+    background: white;
+    border-radius: 6px;
+    text-align: center;
+}
+
+button {
+    font-family: Baloo;
+    letter-spacing: px;
+    background: darkcyan;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin: 0 4px;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 40px;
+}
+

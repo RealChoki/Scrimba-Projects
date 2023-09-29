@@ -1,0 +1,111 @@
+body{
+    color: white;
+    background-color: #ddb0dd;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    
+}
+
+.container{
+    background: #9161a08c;
+    padding-top: 30px;
+    padding-bottom: 69px;
+}
+
+hr{
+    margin-top: 30px ;
+    margin-bottom: 18px;
+    border: none;
+    padding: 1px;
+    background-color: white;
+    max-width: 83%;
+}
+
+h1{
+    margin-bottom: -30px;
+    font-weight: bold;
+    
+}
+
+h2{
+    color: hwb(305 14% 55%);
+    font-size: 30px;
+    margin-bottom: -10px;
+    font-weight: bold;
+    
+
+}
+
+h3{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+button{
+    margin-top: 20px;
+    background-color: hwb(305 14% 55%);
+    color: rgb(255, 255, 255);
+    padding: 10px ;
+    border-radius: 6px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+#second-Btn, 
+#third-Btn{
+    background-color:rgba(255, 255, 255, 0.897);
+    color: #9161a0;
+    border: none;
+    margin: 0px 8px;
+    padding: 12px 50px;
+}
+
+
+@keyframes buttonAnimation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  
+  .button-clicked {
+    animation-name: buttonAnimation;
+  }
+
+
+
+#second-checkmark {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 5.5px;
+    right: 13.5px;
+}
+  
+#first-checkmark{
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 5.5px;
+    right: 13.5px;
+}
+
+.first-div{
+    display: inline-block;
+    position: relative;
+}
+
+.second-div{
+    display: inline-block;
+    position: relative;
+}
+
+.hidden{
+    display: none;
+}

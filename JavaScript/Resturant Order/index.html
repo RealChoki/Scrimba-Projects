@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="stylesheet" href="style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <header>
+              <div>
+                <p class="bigTitle">Choki's Diner</p>
+                <p class="smallTitle">The Best Burgers in Town</p>
+              </div>
+            </header>
+            
+            <section>
+            <div class="menu">
+              <h1>🍕</h1>
+              <div class="itemDisc weird "> 
+                <h3>pizza</h3>
+                <h5>pepperoni,mushrom,mozarella</h5>
+                <h4>$14</h4>
+              </div>
+            </div>          
+            <h2 id="pizzabtn" class="pointer" data-pizza="0">+</h2>
+          </section>
+
+          <section>
+            <div class="menu">
+              <h1>🍔</h1>
+              <div class="itemDisc"> 
+                <h3>Hamburger</h3>
+                <h5>beef, cheese, lettuce</h5>
+                <h4>$12</h4>
+              </div>
+            </div>          
+            <h2 id="burgerbtn" class="pointer" data-burger="1">+</h2>
+          </section>
+
+          <section>
+            <div class="menu">
+              <h1>🍺</h1>
+              <div class="itemDisc"> 
+                <h3>Beer</h3>
+                <h5>grain, hops, yeast, water</h5>
+                <h4>$12</h4>
+              </div>
+            </div>          
+            <h2 id="beerbtn" class="pointer" data-beer="2">+</h2>
+          </section>
+          
+          <section id="thanks" class="thanks hidden">
+            <h5></h5>
+          </section>
+
+          <form class="buy-form hidden" id="buy-form">
+            <h1 class="close pointer" id="close-btn"data-close="close">x</h1>
+            <h3>Enter Card Details</h3>
+            <input id="name-input" type="text" placeholder="Enter your name" required>
+            <input type="text" placeholder="Enter card number" required>
+            <input type="text" placeholder="Enter your CVV" required>
+            <div>
+              <button id="pay-btn"class="pointer">Pay</button>
+            </div>
+          </form>
+
+          <footer class="feed" id="feed">
+            <!--RenderBuyMenu-->
+          </footer>
+          <script src="main.js" type="module"></script>
+        </body>
+    </html>
