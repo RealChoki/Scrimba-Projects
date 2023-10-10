@@ -5,14 +5,14 @@ export default function Main({title, location, googleMapsUrl, startDate, endDate
         <div className="container">
             <img src={imageUrl} className="area"></img>
             <div>
-                <img src="./images/map-logo.png"></img>
-                <h3>{location}</h3>
-                <a href={googleMapsUrl}></a>
-            </div>
-            <h1>{title}</h1>
-            <div>
-                <p><strong>{startDate} - {endDate}</strong></p>
-                <p>{description}</p>
+                <div className="location">
+                    <img src="./images/map-logo.png"></img>
+                    <h3>{location}</h3>
+                    <a href={googleMapsUrl}> View on Google Maps</a>
+                </div>
+                <h1 className="title">{title}</h1>
+                <p className="date">{startDate} - {endDate}</p>
+                <p className="desc">{description}</p>
             </div>
         </div>
     )

@@ -14,10 +14,10 @@ const info = Data.map(data =>{
 
 function Nav(){
     return (
-        <div>
+        <nav>
             <img src="./images/logo.png"></img>
             <p>my travel journal.</p>
-        </div>
+        </nav>
     )
 }
 
