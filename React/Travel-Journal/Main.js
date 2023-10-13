@@ -1,5 +1,6 @@
 import React from "react"
 
+// Defining a functional component called Main that takes in props as an object
 export default function Main({title, location, googleMapsUrl, startDate, endDate, description, imageUrl}){
     return (
         <div className="container">
