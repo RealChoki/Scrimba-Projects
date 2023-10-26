@@ -1,34 +1,43 @@
-/*
-1 meter = 3.281 feet
-1 liter = 0.264 gallon
-1 kilogram = 2.204 pound
-*/
+// Conversion factors
+const meterToFeet = 3.281;
+const literToGallon = 0.264;
+const kilogramToPound = 2.204;
 
-const inputField = document.getElementById("input-fld")
+// Get input field element
+const inputField = document.getElementById("input-fld");
 
-document.getElementById("convert-btn").addEventListener("click",function(){
-    const calcfeet = inputField.value * 3.281
-    const calcmeters = inputField.value / 3.281
+// Add event listener to convert button
+document.getElementById("convert-btn").addEventListener("click", function() {
+    // Get input value
+    const inputValue = inputField.value;
 
-    const calcgallons = inputField.value * 0.264
-    const calcliters = inputField.value / 0.264
+    // Calculate length conversions
+    const feetValue = inputValue * meterToFeet;
+    const metersValue = inputValue / meterToFeet;
 
-    const calcpounds = inputField.value * 2.204
-    const calcmkilos = inputField.value / 2.204
-    
+    // Calculate volume conversions
+    const gallonsValue = inputValue * literToGallon;
+    const litersValue = inputValue / literToGallon;
+
+    // Calculate mass conversions
+    const poundsValue = inputValue * kilogramToPound;
+    const kilosValue = inputValue / kilogramToPound;
+
+    // Update length conversion output
     document.getElementById("lgth").textContent = `
-        ${inputField.value} meters = ${calcfeet.toFixed(2)} feet |
-        ${inputField.value} feet = ${calcmeters.toFixed(2)} meters
-    `
+        ${inputValue} meters = ${feetValue.toFixed(2)} feet |
+        ${inputValue} feet = ${metersValue.toFixed(2)} meters
+    `;
+
+    // Update volume conversion output
     document.getElementById("vlm").textContent = `
-        ${inputField.value} liters = ${calcgallons.toFixed(2)} gallons |
-        ${inputField.value} gallons = ${calcliters.toFixed(2)} liters
-    `
+        ${inputValue} liters = ${gallonsValue.toFixed(2)} gallons |
+        ${inputValue} gallons = ${litersValue.toFixed(2)} liters
+    `;
+
+    // Update mass conversion output
     document.getElementById("mass").textContent = `
-        ${inputField.value} kilos = ${calcpounds.toFixed(2)} pounds |
-        ${inputField.value} pounds = ${calcmkilos.toFixed(2)} kilos
-    `
-})
-
-
-
+        ${inputValue} kilos = ${poundsValue.toFixed(2)} pounds |
+        ${inputValue} pounds = ${kilosValue.toFixed(2)} kilos
+    `;
+});
