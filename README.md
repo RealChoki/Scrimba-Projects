@@ -30,4 +30,6 @@ To access the Scrimba courses and interactive coding challenges that contributed
 
 This repository serves as a testament to my dedication and passion for web development, showcasing the skills and knowledge I've gained through hands-on learning.
 
+![image](https://github.com/RealChoki/Scrimba-Projects/blob/main/CERTIFICATE%20OF%20COMPLETION%20-%20The%20Frontend%20Developer%20Career%20Path.pdf)
+
 <3
