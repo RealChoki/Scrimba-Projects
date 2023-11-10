@@ -30,4 +30,6 @@ To access the Scrimba courses and interactive coding challenges that contributed
 
 This repository serves as a testament to my dedication and passion for web development, showcasing the skills and knowledge I've gained through hands-on learning.
 
+![image](https://scrimba.com/certificate/ua62QEfL/gfrontend)
+
 <3
