@@ -30,6 +30,6 @@ To access the Scrimba courses and interactive coding challenges that contributed
 
 This repository serves as a testament to my dedication and passion for web development, showcasing the skills and knowledge I've gained through hands-on learning.
 
-![https://scrimba.com/certificate/ua62QEfL/gfrontend](https://github.com/RealChoki/Scrimba-Projects/blob/a2e1c2ac8d1ec8767c12d44b845478addce49ad5/CERTIFICATE%20OF%20COMPLETION%20-%20The%20Frontend%20Developer%20Career%20Path.pdf)
+![image](https://github.com/RealChoki/Scrimba-Projects/CERTIFICATE%20OF%20COMPLETION%20-%20The%20Frontend%20Developer%20Career%20Path.pdf)
 
 <3
