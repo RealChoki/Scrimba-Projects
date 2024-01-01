@@ -1,4 +1,4 @@
-![image](https://github.com/RealChoki/Scrimba-Projects/assets/123271772/91467876-5096-4605-ab7f-5c1d599c4719)# Scrimba's Frontend Developer Career Path Projects
+# Scrimba's Frontend Developer Career Path Projects
 
 Welcome to my Scrimba Coding Projects repository! This collection showcases my hands-on experience with various web development technologies and concepts. Through interactive coding challenges and courses on Scrimba, I've honed my skills in a range of areas, including HTML, CSS, JavaScript, React, UI design, web architecture, and more.
 
